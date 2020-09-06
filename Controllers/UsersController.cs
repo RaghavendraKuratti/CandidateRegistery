@@ -11,6 +11,7 @@ using EmployeeRegistery.Data;
 
 namespace EmployeeRegistery.Controllers
 {
+    [Authorize]
     public class UsersController : Controller
     {
         private UserRegisteryEntities db = new UserRegisteryEntities();
